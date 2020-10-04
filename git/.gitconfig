@@ -1,0 +1,6 @@
+[user]
+	name = Prateek Kumar
+	email = prateek@prateekkumar.in
+	signingkey = AA58A8213007883D3E5F95B1CCF0B4F846B8EE31
+[commit]
+	gpgsign = true
