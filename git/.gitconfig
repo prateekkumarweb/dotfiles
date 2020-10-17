@@ -4,3 +4,11 @@
 	signingkey = AA58A8213007883D3E5F95B1CCF0B4F846B8EE31
 [commit]
 	gpgsign = true
+[pull]
+	rebase = true
+[credential]
+	credentialStore = gpg
+	helper = 
+	helper = manager-core
+[credential "https://dev.azure.com"]
+	useHttpPath = true

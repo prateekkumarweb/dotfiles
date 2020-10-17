@@ -35,7 +35,6 @@ function backup_if_exists() {
 
 backup_if_exists ~/.zshrc
 backup_if_exists ~/.gitconfig
-backup_if_exists ~/.custom.sh
 
 PROGRAMS=(git zsh)
 
