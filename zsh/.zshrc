@@ -68,7 +68,7 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(ssh-agent gpg-agent git docker rustup cargo zsh-autosuggestions)
+plugins=(ssh-agent gpg-agent git docker rustup cargo zsh-autosuggestions zsh-nvm)
 
 source $ZSH/oh-my-zsh.sh
 
