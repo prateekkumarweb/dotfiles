@@ -99,3 +99,23 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 source $HOME/.custom.sh
+
+eval "$(starship init zsh)"
+
+# if [[ ! -f ~/.zpm/zpm.zsh ]]; then
+#   git clone --recursive https://github.com/zpm-zsh/zpm ~/.zpm
+# fi
+# source ~/.zpm/zpm.zsh
+
+# zpm load zpm-zsh/pr-rust
+# zpm load zpm-zsh/pr-exec-time
+
+export PATH=/home/prateek/android/android-studio/jre/bin:$PATH
+
+export PATH=$PATH:/home/prateek/bin
+
+export DENO_INSTALL="/home/prateek/.deno"
+export PATH="$DENO_INSTALL/bin:$PATH"
+
+export PATH=$PATH:$HOME/go/bin
+

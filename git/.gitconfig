@@ -9,6 +9,8 @@
 [credential]
 	credentialStore = gpg
 	helper = 
-	helper = manager-core
+	helper = /usr/bin/git-credential-manager-core
 [credential "https://dev.azure.com"]
 	useHttpPath = true
+[init]
+	defaultBranch = main

@@ -19,6 +19,8 @@ sudo -v
 #     git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_SUGGESTIONS_DIR
 # fi
 
+# Also, install git clone https://github.com/zpm-zsh/pr-rust
+
 OLD_DOTFILES="$HOME/dotfiles_bk_$(date -u +"%Y%m%d%H%M%S")"
 mkdir $OLD_DOTFILES
 
