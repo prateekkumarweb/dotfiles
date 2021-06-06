@@ -1,3 +1,5 @@
+[init]
+	defaultBranch = main
 [user]
 	name = Prateek Kumar
 	email = prateek@prateekkumar.in
@@ -6,11 +8,3 @@
 	gpgsign = true
 [pull]
 	rebase = true
-[credential]
-	credentialStore = gpg
-	helper = 
-	helper = /usr/bin/git-credential-manager-core
-[credential "https://dev.azure.com"]
-	useHttpPath = true
-[init]
-	defaultBranch = main
